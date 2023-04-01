@@ -1,0 +1,11 @@
+var keywordThemeParkRoblox = 8.6;
+var keywordThemeParkWorldwide = 6.3;
+var keywordThemeParkCrazy = 3.8;
+
+function timesWords(keywordThemeParkRoblox, keywordThemeParkCrazy) {
+  return keywordThemeParkRoblox / keywordThemeParkCrazy;
+}
+// compare a times keyword theme park roblox vs keword theme park crazy 
+function scriptWordRunner(){
+  console.log(timesWords(keywordThemeParkRoblox,keywordThemeParkCrazy));
+};
